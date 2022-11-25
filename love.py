@@ -2,7 +2,10 @@ import turtle
 from math import sqrt
 label = turtle.Turtle()
 
-label.speed(100)
+window = turtle.Screen()
+window.bgcolor("#dac2bc")
+
+label.speed(1000)
 label.color("purple")
 label.pensize(5)
 label.shape("turtle")
